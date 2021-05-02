@@ -1,0 +1,201 @@
+/* AUTHOR : RUDRA RATHI */
+*{margin:0; padding:0;}
+.heading1{
+    background: green;
+    margin-left: 1%;
+    border:5px;
+    border-style: solid;
+    border-radius: 10px;
+    
+    font-style: italic;
+    
+    width:50vw;
+    margin-top: 5%;
+    animation: anima 2s linear infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes anima{
+    from{padding-right: 3vw;}
+    to{padding-left: 3vw;} 
+}
+#body{
+    
+    background-repeat: no-repeat;
+    background-image:linear-gradient(to left,blue 25%,green 75%);
+    
+    /* background-position: center; */
+
+    background-size: contain;
+    /* background-width: 100vw; */
+    width: 98vw;
+    height: auto;
+}
+
+
+#p21{
+    display: flex;
+    align-items: center;
+}
+
+.div-home{
+
+    color :rgb(204, 27, 27);
+    /* margin-left: 50%; */
+    /* padding-left: 10%; */
+    border-width: 1.5vw;
+    background:black;
+    font:black;
+    width:auto;
+    height:5vw;
+    margin-top: none;
+    padding-top: none;
+    
+    
+}
+li{
+    background-color: yellow;
+   
+    display: inline;
+    padding-right: 3%;
+    font-size: 22px;
+    position: relative;
+    margin-top: none;
+    padding-bottom: 10px;
+    
+}
+li:hover{
+    text-decoration: underline;
+    color: rgba(115, 243, 10, 0.952);
+   
+}
+#h{
+    margin-left: 50%;
+}
+/* #programmer{
+    margin-left: auto;
+    padding-top: 0.25%;
+    width: auto;
+    margin-top: 2%;
+    margin-right: 10%;
+    border-radius: 0% 100% 0% 100% / 74% 22% 78% 26% ;
+} */
+#lap{
+    height: 24vw;
+    border: mediumspringgreen;
+    border-radius:188% 12% 92% 8% / 6% 82% 18% 94%  ;
+}
+#h3{
+    border:solid;
+    border-radius: 5px;
+    font-style: italic;
+    background-color: saddlebrown;
+    margin-left: 3%;
+
+}
+#di2{
+    display: flex;
+    align-items: center;
+    margin-top:13%;
+
+}
+a{
+    background-color: yellow;
+   
+    display: inline;
+    padding-right: 1%;
+    font-size: 22px;
+    position: relative;
+    margin-top: none;
+    padding-bottom: 10px;
+    
+}
+a:hover{
+     text-decoration: underline;
+    color: rgb(10, 196, 243);
+}
+#mb{
+    margin: auto;
+    padding: auto;
+}
+#dih2{
+    border: solid;
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    background-color: yellow;
+}
+.flex1{
+    display: flex;
+    background-color: lightseagreen;
+}
+.flex1 > div {
+    background-color: yellow;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    max-width: 20vw;
+    font-style: italic;
+}
+#no-decoration-a-1{
+    font-style: italic;
+   
+}
+.contdiv{
+    display: flex;
+    margin-top: 10%;
+}
+#techno2{
+    
+    border-radius: 81% 19% 80% 20% / 10% 76% 24% 90% ;
+}
+#h221{
+    border: solid;
+    border-radius: 5px;
+    background-color:yellow;
+
+    font-style: italic;
+    font-size: 20px;
+    width: 900px;
+    padding-bottom: 3%;
+     
+    max-height: 50px ;
+}
+ /* ------------------------------ANIMATING MOUSE START-------------------------------- */
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: black;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+/* ---------------------------ANIMATING MOUSE END--------------------------------------- */

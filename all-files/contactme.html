@@ -1,0 +1,49 @@
+<!-- AUTHOR : RUDRA RATHI -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url(../images/bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100vw;
+
+        }
+    </style>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <div class="div1">
+        <ul type="none">
+            <li><a href="../index.html" target="_blank">Home</a></li>
+            <li><a href=aboutme.html target="_blank">About Me</a></li>
+            <li><a href="myblogs.html" target="_blank">My Blogs</a></li>
+            <li><a href="contactme.html" target="_blank">Contact me</a></li>
+        </ul>
+    </div>
+    <h1 id="conth1">Contact Form</h1>
+    <form action="" method="POST">
+        <input id="name" type="text" placeholder="Enter Your Name Please" data-aos="zoom-out-down"><br>
+        <hr>
+        <input id="email" type="email" placeholder="Enter Your Email Please" data-aos="slide-left"><br>
+        <hr>
+        <input id="message" type="text" placeholder="Enter Your Message Please" data-aos="zoom-out-up">
+        <input id="sendbutton" type="submit" value="Send Your Message" data-aos="flip-left">
+
+    </form>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
+</body>
+
+</html>

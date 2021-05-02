@@ -1,0 +1,193 @@
+/* AUTHOR : RUDRA RATHI */
+/* HERE IS THE STYLING OF THE NAVIGATION BAR */
+*{margin:0; padding:0;}
+.div1{
+    color :rgb(204, 27, 27);
+    /* margin-left: 50%; */
+    padding-left: 50%;
+    border-width: 1.5vw;
+    background:black;
+    font:black;
+    width:auto;
+    height:4.5vw;
+    margin-top: none;
+    padding-top: none;
+}
+
+li{
+    background-color: yellow;
+    
+    display: inline;
+    padding-right: 1%;
+    font-size: 22px;
+    position: relative;
+    margin-top: none;
+    padding-bottom: 10px;
+    
+}
+li:hover{
+    text-decoration: underline;
+    color: rgb(10, 196, 243);
+    
+}
+
+ /* HERE IS THE STYLING OF THE CONTACT PAGE */
+#cont{
+    color:crimson;
+}
+#conth1{
+    color:brown;
+    padding-left: 25%;
+    font-size: 3vw;
+}
+#name{
+    margin-top: 10%;
+    
+   margin-left: 15%;
+    background-color: aqua;
+   height: 50px;
+    width: 300px;
+    font-style: italic;
+}
+#email{
+                
+    margin-left: 15%;
+    background-color: aqua;
+    height: 50px;
+    width: 300px;
+    font-style: italic;
+}
+#message{   
+    margin-left: 15%;
+    background-color: aqua;
+    height: 200px;
+    width: 700px;
+    font-style: italic;
+}
+#sendbutton{
+    height: 50px;
+    width: 250px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+
+#name:hover{
+    background-color:yellow;
+}
+#email:hover{
+    background-color:yellow;
+}
+#message:hover{
+    background-color:yellow;
+}
+#sendbutton:hover{
+    background-color:blueviolet;
+    
+    text-decoration: underline;
+}
+/*<!------------------- ABOUT ME PAGE ------------------->*/
+#prgr{
+    margin-left: 2%;
+    margin-top: 6%;
+    max-height: 30vw;
+    max-width: 30vw;
+    
+}
+#h21{
+    border: solid;
+    border-radius:1vw;
+    background-color: lawngreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    max-width: 50vw;
+    height: auto;
+    margin-right: 6%;
+    
+    margin-top: 10%;
+    margin-left: auto;
+   
+    
+}
+#first-para{
+    display: flex;
+}
+#ab_bd{
+    background-image: linear-gradient(to left,yellow,rgb(115, 128, 0));
+}
+
+#h22{
+    border: solid;
+    border-radius: 7px;
+    width:32vw;
+    background-color: blue;
+    margin-left: 4%;
+}
+
+#a43{
+    color: mediumslateblue;
+}
+#hhh{
+    display: flex;
+    align-items: center;
+}
+a{
+    background-color: yellow;
+   
+    display: inline;
+    padding-right: 4%;
+    font-size: 22px;
+    position: relative;
+    margin-top: none;
+    padding-bottom: 10px;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(10, 196, 243);
+    
+}
+/*------------------------python-blog.html styling------------------------*/
+#pre1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: teal;
+    width: 200vw;
+}
+ /* ------------------------------ANIMATING MOUSE START-------------------------------- */
+ .scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: black;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+  /* ---------------------------ANIMATING MOUSE END--------------------------------------- */
